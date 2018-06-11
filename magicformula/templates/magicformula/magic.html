@@ -1,0 +1,12 @@
+{% extends 'magicformula/base.html' %}
+
+{% block content %}
+{{market.name}}
+{%for c in companies%}
+<div>
+{{c.name}}
+</div>
+{%endfor%}
+{% endblock %}
+
+
